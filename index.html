@@ -294,6 +294,8 @@
         </div>
       </section>
 
+      <!-- Tabs content -->
+
       <!-- Pilihan  -->
       <section
         class="container overflow-hidden pt-5 pt-md-6 pt-lg-7 pb-4 pb-md-2"
@@ -306,7 +308,7 @@
           <!-- Portfolio nav (Filters)-->
           <ul class="masonry-filters nav nav-tabs justify-content-center pb-4">
             <li class="nav-item visually-hidden-focusable">
-              <a class="nav-link active" href="#" data-group="kredit">
+              <a class="nav-link active" href="#" data-group="properti">
                 <div class="text-center fs-sm">
                   <img
                     src="images/Kartukredit-multigunabpkb.png"
@@ -319,7 +321,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-group="kredit">
+              <a class="nav-link" href="#" data-group="properti">
                 <div class="text-center fs-sm">
                   <img
                     src="images/KPR-multigunabpkb.png"
@@ -332,7 +334,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-group="kta">
+              <a class="nav-link" href="#" data-group="bpkb">
                 <div class="text-center fs-sm">
                   <img
                     src="images/Kartukredit-multigunabpkb.png"
@@ -346,7 +348,7 @@
             </li>
             <li class="nav-item">
               <div class="text-center fs-sm">
-                <a class="nav-link" href="#" data-group="multiguna">
+                <a class="nav-link" href="#" data-group="syariah">
                   <img
                     src="images/Pembiayaansyariah-multigunabpkb.png"
                     alt="Icon by Creative Squad"
@@ -358,7 +360,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-group="tabungan">
+              <a class="nav-link" href="#" data-group="jualsyariah">
                 <div class="text-center fs-sm">
                   <img
                     src="images/Jualbelisyariah-multigunabpkb.png"
@@ -371,7 +373,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-group="deposito">
+              <a class="nav-link" href="#" data-group="umroh">
                 <div class="text-center fs-sm">
                   <img
                     src="images/icons8-kabah-64.png"
@@ -384,7 +386,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-group="kpr">
+              <a class="nav-link" href="#" data-group="kta">
                 <div class="text-center fs-sm">
                   <img
                     src="images/KTA-multigunabpkb.png"
@@ -410,7 +412,7 @@
           >
             <div
               class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kredit"]'
+              data-groups='["properti","bpkb"]'
               style="
                 position: absolute;
                 top: 0px;
@@ -423,20 +425,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Kartu Kredit Hemat Nonton Bioskop Terbaik
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Tiket murah, pengalaman nonton tetap mewah!
-                  </p>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/bfi-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/bfi-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kredit"]'
+              data-groups='["bpkb"]'
               style="
                 position: absolute;
                 top: 0px;
@@ -450,23 +458,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="fs-6 nav-heading mb-2">
-                    Kartu Kredit Terbaik dengan Promo Hotel Menarik
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Liburan ke mana aja lebih seru dan hemat!
-                  </p>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/mega-finance-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/mega-finance-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--hidden"
-              data-groups='["kredit"]'
+              data-groups='["bpkb"]'
               aria-hidden="true"
               style="
                 position: absolute;
@@ -481,23 +492,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="fs-6 nav-heading mb-2">
-                    Kartu Kredit Terbaik untuk Transaksi Luar Negeri
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Wujudkan traveling ke negara impian dengan hemat!
-                  </p>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/wom-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/wom-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kta"]'
+              data-groups='["bpkb","syariah"]'
               style="
                 position: absolute;
                 top: 0px;
@@ -511,20 +525,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    Pinjaman untuk Mahasiswa yang Paling Direkomendasikan
-                  </h3>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/Baf-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/Baf-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--hidden"
-              data-groups='["kta"]'
+              data-groups='["bpkb"]'
               aria-hidden="true"
               style="
                 position: absolute;
@@ -539,20 +559,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    Pinjaman Syariah Tanpa Agunan yang Beri Rasa Aman
-                  </h3>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/adira-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/adira-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kta"]'
+              data-groups='["syariah","umroh","jualsyariah"]'
               style="
                 position: absolute;
                 top: 0px;
@@ -566,20 +592,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    KTA Tenor Panjang Terbaik yang Paling Fleksibel
-                  </h3>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/bfi-syariah-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/bfi-syariah-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["multiguna"]'
+              data-groups='["properti"]'
               style="
                 position: absolute;
                 top: 0px;
@@ -593,20 +625,26 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    Kredit Modal Kerja untuk Developer Properti Terbaik
-                  </h3>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/bank-sampoerna-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/bank-sampoerna-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
             <div
               class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["multiguna"]'
+              data-groups='["properti"]'
               style="
                 position: absolute;
                 top: 0px;
@@ -620,281 +658,22 @@
                 transition-property: transform, opacity;
               "
             >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    Pinjaman dengan Agunan Terbaik untuk Usaha Mikro
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["multiguna"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transform: translate(0px, 480px) scale(1);
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    Pinjaman dengan Agunan Terbaik untuk Karyawan
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["tabungan"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Tabungan Pensiun Paling Direkomendasikan
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Siapkan hari tua dengan tenang, aman, dan nyaman
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["tabungan"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Tabungan Pelajar Terbaik yang Bebas Biaya
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Ajak si kecil menabung tanpa ribet biaya admin
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["tabungan"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Tabungan Valas Terbaik untuk Investasi Internasional
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Simpan dolar & mata uang asing dengan mudah
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["deposito"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Deposito dengan Setoran Awal Rendah
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Terbaik Mulai investasi deposito dengan modal ringan!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["deposito"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Deposito On Call Terbaik dengan Return Tinggi
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Cuan cepat, tenor fleksibel sesuai kebutuhan
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["deposito"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div class="card card-hover border-0 shadow">
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2 fs-6">
-                    Deposito Berjangka yang Aman dan Fleksibel
-                  </h3>
-                  <p class="text-muted mb-2">
-                    Pilih tenornya, nikmati bunga maksimal!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kpr"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transform: translate(0px, 480px) scale(1);
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    KPA Terbaik: Cara Mudah Punya Apartemen Impian!
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kpr"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transform: translate(0px, 480px) scale(1);
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    KPR Terbaik Bunga Rendah: Cicilan Ringan, Rumah Idaman
-                    Terjangkau!
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div
-              class="masonry-grid-item shuffle-item shuffle-item--visible"
-              data-groups='["kpr"]'
-              style="
-                position: absolute;
-                top: 0px;
-                visibility: visible;
-                will-change: transform;
-                left: 0px;
-                opacity: 1;
-                transform: translate(0px, 480px) scale(1);
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                transition-property: transform, opacity;
-              "
-            >
-              <div
-                class="card card-hover border-0 shadow"
-                href="portfolio-single-carousel.html"
-              >
-                <div class="card-body">
-                  <h3 class="h5 nav-heading mb-2">
-                    KPR Take Over Terbaik Syariah: Solusi Cicilan Lebih Ringan!
-                  </h3>
-                </div>
-              </div>
+              <a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+                <div class="card-body px-1 py-0 text-center">
+                  <div class="swap-image">
+                    <img
+                      class="swap-to"
+                      src="images/fif-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    /><img
+                      class="swap-from"
+                      src="images/fif-logo-sama.png"
+                      alt="Brand logo"
+                      width="100"
+                    />
+                  </div></div
+              ></a>
             </div>
           </div>
         </div>
